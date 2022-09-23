@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: citizenService
+
+  cloud:
+    config:
+      profile: native
+      uri: http://localhost:8000
+
+

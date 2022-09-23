@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: authService
+
+  cloud:
+    config:
+      profile: native
+      uri: http://localhost:8000
+
+
