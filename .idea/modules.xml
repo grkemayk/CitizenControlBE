@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CitizenControlBE.iml" filepath="$PROJECT_DIR$/.idea/CitizenControlBE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservies/adminServer/adminServer.iml" filepath="$PROJECT_DIR$/microservies/adminServer/adminServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservies/authService/authService.iml" filepath="$PROJECT_DIR$/microservies/authService/authService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservies/citizenService/citizenService.iml" filepath="$PROJECT_DIR$/microservies/citizenService/citizenService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservies/configServer/configServer.iml" filepath="$PROJECT_DIR$/microservies/configServer/configServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservies/eureka/eureka.iml" filepath="$PROJECT_DIR$/microservies/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservies/gatewayServer/gatewayServer.iml" filepath="$PROJECT_DIR$/microservies/gatewayServer/gatewayServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservies/microservies.iml" filepath="$PROJECT_DIR$/microservies/microservies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservies/parentService/parentService.iml" filepath="$PROJECT_DIR$/microservies/parentService/parentService.iml" />
+    </modules>
+  </component>
+</project>
