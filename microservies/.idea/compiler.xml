@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="userMoreService" />
+        <module name="configServer" />
+        <module name="eureka" />
+        <module name="carService" />
+        <module name="adminServer" />
+        <module name="gatewayServer" />
+        <module name="authService" />
+        <module name="bikeService" />
+        <module name="eventsService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth" target="17" />
+      <module name="authFilter" target="18" />
+      <module name="authFilters" target="17" />
+      <module name="authServer" target="17" />
+      <module name="commonService" target="18" />
+      <module name="eurekaServer" target="18" />
+      <module name="eventService" target="18" />
+      <module name="examples" target="18" />
+      <module name="securityFilter" target="17" />
+      <module name="service-parent" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="adminServer" options="-parameters" />
+      <module name="auth" options="-parameters" />
+      <module name="authFilter" options="-parameters" />
+      <module name="authFilters" options="-parameters" />
+      <module name="authServer" options="-parameters" />
+      <module name="authService" options="-parameters" />
+      <module name="bikeService" options="-parameters" />
+      <module name="carService" options="-parameters" />
+      <module name="commonService" options="-parameters" />
+      <module name="configServer" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="eurekaServer" options="-parameters" />
+      <module name="eventService" options="-parameters" />
+      <module name="eventsService" options="-parameters" />
+      <module name="examples" options="-parameters" />
+      <module name="gatewayServer" options="-parameters" />
+      <module name="microservies" options="-parameters" />
+      <module name="parentService" options="-parameters" />
+      <module name="securityFilter" options="-parameters" />
+      <module name="service-parent" options="-parameters" />
+      <module name="userMoreService" options="-parameters" />
+    </option>
+  </component>
+</project>

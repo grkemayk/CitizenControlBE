@@ -1,0 +1,43 @@
+server:
+  port: 8002
+
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: GATEWAY-SERVER
+  cloud:
+    gateway:
+      routes:
+        - id: auth
+          uri: lb://AUTH-SERVICE
+          predicates:
+            - Path=/auth/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+            - name: CircuitBreaker
+              args:
+                name: fallbackAuth
+                fallbackUri: forward:/fallbackAuthService
+        - id: userMore
+          uri: lb://CITIZEN-SERVICE
+          predicates:
+            - Path=/citizen/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+            - name: CircuitBreaker
+              args:
+                name: fallbackCitizen
+                fallbackUri: forward:/fallbackUserCitizenService
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    preferIpAddress: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

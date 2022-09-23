@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/adminServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authFilter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authFilters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bikeService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/carService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventsService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gatewayServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parentService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parentService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/securityFilter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/userMoreService/src/main/java" charset="UTF-8" />
+  </component>
+</project>
